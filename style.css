@@ -1,0 +1,76 @@
+/* changing default styles of browser */
+
+*{
+    margin: 5px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+form{
+    max-width: 400px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+    padding: 50px;
+}
+
+.title{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+form > div > input{
+    width: 100%;
+    height: 40;
+    border-radius: 8px;
+    outline: none;
+    font-size: large;
+}
+
+#chkbox{
+    height: 15px;
+    width: 5%;
+}
+
+button{
+    height: 30px;
+    width: 50%;
+    background-color: rgb(117, 201, 117);
+    font-weight: bold;
+    font-size: large;
+}
+
+#table{
+    max-width: 1000px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+    padding: 50px; 
+}
+
+.etitle{
+    font-size:25;
+    font-weight: bold;
+
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+label{
+    font-weight: bold;
+}
+/* style rules for icons */
